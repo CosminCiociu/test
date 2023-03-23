@@ -52,7 +52,7 @@ Public
 You can see the in the api.php file or run docker-compose exec app php artisan route:list
 In the controllers, for the post/put methods, you can see my json body content commented
 
-I used laravel/sanctum for authentication
+I used laravel/sanctum for authentication. For accessing the routes protected by the bundle, you will need to add to your request the token generated with login/register api 
 
 I didn't made a ManyToMany relationship between projects and employees but beside that, I think I covered all the rest
 
